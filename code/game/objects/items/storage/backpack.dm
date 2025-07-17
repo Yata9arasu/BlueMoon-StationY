@@ -324,7 +324,7 @@
 		new /obj/effect/spawner/lootdrop/syndicate_present(src)
 
 /obj/item/storage/backpack/satchel/flat/with_tools/PopulateContents()
-	new /obj/item/stack/tile/iron/base(src)
+	new /obj/item/stack/tile/plasteel(src)
 	new /obj/item/crowbar(src)
 
 /obj/item/storage/backpack/satchel/flat/Destroy()
