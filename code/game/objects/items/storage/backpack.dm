@@ -320,7 +320,11 @@
 		icon_state = initial(icon_state)
 
 /obj/item/storage/backpack/satchel/flat/PopulateContents()
-	new /obj/item/stack/tile/plasteel(src)
+	for(var/items in 1 to 4)
+		new /obj/effect/spawner/lootdrop/syndicate_present(src)
+
+/obj/item/storage/backpack/satchel/flat/with_tools/PopulateContents()
+	new /obj/item/stack/tile/iron/base(src)
 	new /obj/item/crowbar(src)
 
 /obj/item/storage/backpack/satchel/flat/Destroy()
