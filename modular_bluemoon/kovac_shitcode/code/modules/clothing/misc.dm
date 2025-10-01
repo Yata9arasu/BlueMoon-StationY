@@ -102,7 +102,6 @@
 	name = "blue cape"
 	desc = "Stylish."
 	icon_state = "cape_blue"
-	item_state = "cape_blue"
 	icon = 'modular_bluemoon/kovac_shitcode/icons/obj/clothing/misc.dmi'
 	mob_overlay_icon = 'modular_bluemoon/kovac_shitcode/icons/mob/clothing/misc.dmi'
 
@@ -123,6 +122,7 @@
 	assignment = "Sol"
 	uses_overlays = FALSE
 	card_sticker = TRUE
+	special_assignment = "sol"
 
 /obj/item/card/id/nri_citizen
 	name = "NRI Citizen ID"
@@ -131,6 +131,7 @@
 	assignment = "NRI"
 	uses_overlays = FALSE
 	card_sticker = TRUE
+	special_assignment = "nri"
 
 /obj/item/card/id/blumenland_citizen
 	name = "Blumenland Citizen ID"
@@ -139,6 +140,7 @@
 	assignment = "Blumenland Citizen"
 	uses_overlays = FALSE
 	card_sticker = TRUE
+	special_assignment = "bmland"
 
 //// The default nun robe change to uniform slot
 
